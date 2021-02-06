@@ -9,52 +9,42 @@ const { LatLng, LatLngBounds } = sdkTypes;
 // `predictionPlace` (util.types.place) properties.
 export default [
   {
-    id: 'default-new-york',
+    id: 'default-stockholm',
     predictionPlace: {
-      address: 'New York City, New York, USA',
+      address: 'Stockholm, Sweden',
       bounds: new LatLngBounds(
-        new LatLng(40.917576401307, -73.7008392055224),
-        new LatLng(40.477399, -74.2590879797556)
+        new LatLng(59.3293, 18.0686),
+        new LatLng(60.3293, 17.0686)
       ),
     },
   },
   {
-    id: 'default-los-angeles',
+    id: 'default-goteborg',
     predictionPlace: {
-      address: 'Los Angeles, California, USA',
+      address: 'Göteborg, Sweden',
       bounds: new LatLngBounds(
-        new LatLng(34.161440999758, -118.121305008073),
-        new LatLng(33.9018913203336, -118.521456965901)
+        new LatLng(57.7089, 11.9746),
+        new LatLng(58.7089, 10.9746)
       ),
     },
   },
   {
-    id: 'default-san-francisco',
+    id: 'default-malmo',
     predictionPlace: {
-      address: 'San Francisco, California, USA',
+      address: 'Malmö, Sweden',
       bounds: new LatLngBounds(
-        new LatLng(37.8324430069081, -122.354995082683),
-        new LatLng(37.6044780500533, -122.517910874663)
+        new LatLng(55.5791, 13.0109),
+        new LatLng(56.5791, 12.0109)
       ),
     },
   },
   {
-    id: 'default-seattle',
+    id: 'default-uppsala',
     predictionPlace: {
-      address: 'Seattle, Washington, USA',
+      address: 'Uppsala, Sweden',
       bounds: new LatLngBounds(
-        new LatLng(47.7779392908564, -122.216605992108),
-        new LatLng(47.3403950185547, -122.441233019046)
-      ),
-    },
-  },
-  {
-    id: 'default-portland',
-    predictionPlace: {
-      address: 'Portland, Oregon, USA',
-      bounds: new LatLngBounds(
-        new LatLng(45.858099013046, -122.441059986416),
-        new LatLng(45.3794799927623, -122.929215816001)
+        new LatLng(59.8586, 17.6389),
+        new LatLng(60.8586, 16.6389)
       ),
     },
   },

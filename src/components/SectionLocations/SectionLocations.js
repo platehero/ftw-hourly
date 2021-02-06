@@ -8,9 +8,9 @@ import { NamedLink } from '../../components';
 
 import css from './SectionLocations.module.css';
 
-import nyImage from './images/ny-yogi.jpg';
-import laImage from './images/la-yogi.jpg';
-import sfImage from './images/sf-yogi.jpg';
+import Stockholm from './images/Stockholm.jpg';
+import Goteburg from './images/goteburg.jpg';
+import Malmo from './images/malmo.jpg';
 
 class LocationImage extends Component {
   render() {
@@ -51,19 +51,19 @@ const SectionLocations = props => {
       </div>
       <div className={css.locations}>
         {locationLink(
-          'New York',
-          nyImage,
-          '?address=New%20York%20City%2C%20New%20York%2C%20USA&bounds=40.917576401307%2C-73.7008392055224%2C40.477399%2C-74.2590879797556'
+          'Stockholm',
+          Stockholm,
+          '?address=Stockholm%2C%20Sweden&bounds=59.3293%2C18.0686%2C60.3293%2C17.0686'
         )}
         {locationLink(
-          'Los Angeles',
-          laImage,
-          '?address=Los%20Angeles%2C%20California%2C%20USA&bounds=34.161440999758%2C-118.121305008073%2C33.9018913203336%2C-118.521456965901'
+          'Göteborg',
+          Goteburg,
+          '?address=Göteborg%2C%20Sweden&bounds=57.7089%2C11.9746%2C58.7089%2C10.9746'
         )}
         {locationLink(
-          'San Francisco',
-          sfImage,
-          '?address=San%20Francisco%2C%20California%2C%20USA&bounds=37.8324430069081%2C-122.354995082683%2C37.6044780500533%2C-122.517910874663'
+          'Malmö',
+          Malmo,
+          '?address=Malmö%2C%20Sweden&bounds=55.5791%2C13.0109%2C56.5791%2C12.0109'
         )}
       </div>
     </div>
