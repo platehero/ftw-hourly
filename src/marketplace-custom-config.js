@@ -92,8 +92,8 @@ export const filters = [
     config: {},
   },
   {
-    id: 'yogaStyles',
-    label: 'Yoga styles',
+    id: 'courses',
+    label: 'Courses',
     type: 'SelectMultipleFilter',
     group: 'secondary',
     queryParamNames: ['pub_yogaStyles'],
@@ -107,12 +107,12 @@ export const filters = [
       // Note: label is not added through the translation files
       // to make filter customizations a bit easier.
       options: [
-        { key: 'ashtanga', label: 'Ashtanga' },
-        { key: 'hatha', label: 'Hatha' },
-        { key: 'kundalini', label: 'Kundalini' },
-        { key: 'restorative', label: 'Restorative' },
-        { key: 'vinyasa', label: 'Vinyasa' },
-        { key: 'yin', label: 'Yin' },
+        { key: 'entree', label: 'Entree' },
+        { key: 'side', label: 'Side' },
+        { key: 'beverage', label: 'Beverage' },
+        { key: 'dessert', label: 'Dessert' },
+        //{ key: 'vinyasa', label: 'Vinyasa' },
+        //{ key: 'yin', label: 'Yin' },
       ],
     },
   },
@@ -129,8 +129,8 @@ export const filters = [
       // to make filter customizations a bit easier.
       options: [
         { key: 'none', label: 'None', hideFromFilters: true, hideFromListingInfo: true },
-        { key: '200h', label: 'Registered yoga teacher 200h' },
-        { key: '500h', label: 'Registered yoga teacher 500h' },
+        { key: 'verified', label: 'Verified' },
+        { key: 'notverified', label: 'Not Verified' },
       ],
     },
   },
